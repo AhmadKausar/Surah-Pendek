@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sabtungoding.finalproject.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/cream"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/alikhlas"
+        android:layout_below="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Ikhlas"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/adduha"
+        android:layout_below="@+id/alikhlas"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Ad - Duhha"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/aladiyat"
+        android:layout_below="@+id/adduha"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Adiyat"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/alala"
+        android:layout_below="@+id/adduha"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Ala"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/alkausar"
+        android:layout_below="@+id/alala"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Kausar"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/almaun"
+        android:layout_below="@+id/alkafirun"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Maun"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/alqoriyah"
+        android:layout_below="@+id/almaun"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah Al - Qariah"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/attakasur"
+        android:layout_below="@+id/alqoriyah"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah At - Takasur"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/cream"
+        android:textSize="20dp"
+        android:id="@+id/attin"
+        android:layout_below="@+id/attakasur"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Surah At - Tin"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:src="@drawable/stop"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="fitCenter"
+        android:gravity="bottom"
+        android:layout_marginLeft="210dp"
+        android:background="@color/cream"
+        />
+
+
+        <ImageButton
+            android:id="@+id/play"
+            android:src="@drawable/play"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="70dp"
+            android:background="@color/cream"
+            />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:src="@drawable/pause"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="140dp"
+            android:background="@color/cream"
+           />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
